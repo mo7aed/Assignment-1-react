@@ -1,0 +1,26 @@
+.navLink {
+    color: white !important;
+    margin-left: 1rem !important; ;
+  }
+
+
+  .navPills {
+    --bs-nav-pills-link-active-bg: var(--main-color) !important;
+}
+
+.navPills{
+  --bs-nav-pills-link-active-bg: var(--main-color) !important;
+  & > li>a{
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    font-weight: bold;
+    
+}
+}
+
+.navPills > li > a:hover{
+  background-color: var(--main-color);
+}

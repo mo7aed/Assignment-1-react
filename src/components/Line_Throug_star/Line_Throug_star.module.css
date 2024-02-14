@@ -1,0 +1,11 @@
+.hr{
+    border: 2px solid white !important;
+    background-color: white;
+    opacity: 1 !important;
+    width: 180px !important;
+  }
+  
+  .star > i{
+    top:-18% !important;
+    position: absolute !important;
+  }

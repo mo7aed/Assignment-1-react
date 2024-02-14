@@ -1,0 +1,14 @@
+section .borderMid{
+    border-color: var(--mid-color) !important;
+      
+    }
+
+
+    .star > i{
+        top:-10% !important;
+        position: absolute !important;
+      }
+
+      .hr{
+        width: 200px;
+      }
